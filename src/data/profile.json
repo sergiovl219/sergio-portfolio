@@ -1,0 +1,83 @@
+{
+  "about": {
+    "title": "Backend Engineer",
+    "summary": "Bilingual Software Engineer specialized in Python (Django, FastAPI, Flask) and AWS serverless. I build scalable systems, modern front-ends, and LLM apps with LangChain and LangSmith.",
+    "avatar": "https://github.com/sergiovl219.png",
+    "cvHref": "/Sergio_Vargas_CV.pdf",
+    "ctas": [
+      { "label": "View Projects", "href": "#projects" },
+      { "label": "Contact", "href": "#contact", "outline": true }
+    ]
+  },
+  "links": {
+    "email": "sergiovl219@gmail.com",
+    "linkedin": "https://linkedin.com/in/sergio-eduardo-vargas-lopez-965a88165",
+    "github": "https://github.com/sergiovl219"
+  },
+  "tech": {
+    "backend": ["Python", "Django", "FastAPI", "Flask"],
+    "frontend": ["React", "Vue", "TypeScript"],
+    "databases": ["PostgreSQL", "MySQL", "SQL Server", "MongoDB"],
+    "cloud": ["AWS", "Docker", "Redis", "Celery"],
+    "ai": ["LangChain", "LangSmith"]
+  },
+  "experience": [
+    {
+      "company": "Unosquare / Harvard Business School",
+      "role": "Fullstack Developer",
+      "period": "Nov 2022 – Present",
+      "bullets": [
+        "Developed backend services with FastAPI and frontends with React/Vue.",
+        "Designed AWS serverless solutions (Lambda, RDS, CloudWatch, Secrets Manager, IAM).",
+        "Gathered and analyzed requirements in the absence of a BA role."
+      ]
+    },
+    {
+      "company": "EON Igniting Business",
+      "role": "Backend Developer",
+      "period": "Jul 2021 – Nov 2022",
+      "bullets": [
+        "Built microservices in Django (hexagonal architecture).",
+        "Optimized PostgreSQL performance (queries, indexes, triggers)."
+      ]
+    },
+    {
+      "company": "Paymentez",
+      "role": "Backend Developer",
+      "period": "Oct 2019 – Jul 2021",
+      "bullets": [
+        "Implemented payment microservices (50k+ monthly transactions).",
+        "Developed PHP plugins for WooCommerce, Prestashop, Magento."
+      ]
+    },
+    {
+      "company": "Intelmas",
+      "role": "Python Developer & Linux Administrator",
+      "period": "Jul 2018 – Oct 2019",
+      "bullets": [
+        "Delivered client solutions with Flask RESTful, MongoDB, MySQL, PHP.",
+        "Automated Linux server tasks to reduce manual workload."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "desc": "This website showcasing my experience, stack, and projects.",
+      "href": "#",
+      "stack": ["Next.js", "Tailwind", "Framer Motion", "Custom UI"]
+    },
+    {
+      "title": "Algorithms Repo",
+      "desc": "LeetCode/HackerRank solutions with clean explanations and tests.",
+      "href": "https://github.com/sergiovl219",
+      "stack": ["Python", "TypeScript", "PyTest"]
+    },
+    {
+      "title": "LangChain + LangSmith Demo",
+      "desc": "Chatbot with evaluation/monitoring via LangSmith.",
+      "href": "#",
+      "stack": ["FastAPI", "LangChain", "LangSmith", "AWS"]
+    }
+  ]
+}

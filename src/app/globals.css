@@ -3,8 +3,38 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --text-primary: #171717; /* slate-900 */
+  --text-secondary: #475569; /* slate-600 */
+  --border-color: #e2e8f0;
+
+  --card-bg: #ffffff;
+  --card-text: #0f172a;     /* slate-900 */
+  --card-border: #e2e8f0;   /* slate-200 */
+
+  --chip-bg: #f1f5f9;       /* slate-100 */
+  --chip-text: #0f172a;     /* slate-900 */
+  --chip-border: #e2e8f0;   /* slate-200 */
 }
 
+:root.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1; /* slate-300 */
+  --border-color: #ffffff;
+
+  --card-bg: transparent;   /* igual a botones outline */
+  --card-text: #ffffff;
+  --card-border: #ffffff;
+
+  --chip-bg: transparent;
+  --chip-text: #ffffff;
+  --chip-border: #ffffff;
+}
+
+/* Tokens opcionales (Tailwind v4) */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -12,13 +42,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Estas reglas hacen que el body use las variables (no Tailwind) */
 body {
   background: var(--background);
   color: var(--foreground);
