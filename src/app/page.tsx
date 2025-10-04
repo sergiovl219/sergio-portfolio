@@ -52,7 +52,6 @@ export default function Page() {
               {profile.about.ctas.map((cta) => (
                 <Button
                   key={cta.label}
-                  asChild
                   variant={cta.outline ? "outline" : "solid"}
                   href={cta.href}
                 >
@@ -60,7 +59,7 @@ export default function Page() {
                 </Button>
               ))}
               {/* Nota: usamos el path desde profile.json; ya lo cambiaste a /Updated_CV_Sergio_Vargas.pdf */}
-              <Button asChild variant="outline" href={profile.about.cvHref}>
+              <Button variant="outline" href={profile.about.cvHref}>
                 Download CV
               </Button>
             </div>
