@@ -173,11 +173,12 @@ export default function Page() {
           <Card>
             <CardContent className="p-4">
               <Image
-                src={`https://leetcard.jacoblin.cool/${profile.links.github.split("/").pop()}?theme=dark&font=Roboto&ext=heatmap`}
+                src="https://leetcard.jacoblin.cool/sergiovl219?theme=dark&font=Roboto&ext=heatmap"
                 alt="LeetCode Stats"
                 width={1200}
                 height={420}
                 className="w-full rounded-md border border-slate-200 dark:border-slate-700"
+                unoptimized
               />
             </CardContent>
           </Card>
