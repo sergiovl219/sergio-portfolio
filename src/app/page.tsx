@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import ThemeToggle from "@/components/ThemeToggle";
 import { Section, SectionTitle, TechBadge } from "@/components/Section";
@@ -8,14 +9,6 @@ import { Button } from "@/components/ui/button";
 import profile from "@/data/profile.json";
 
 export default function Page() {
-  const navItems = [
-    { href: "#about", label: "About" },
-    { href: "#tech", label: "Tech Stack" },
-    { href: "#experience", label: "Experience" },
-    { href: "#projects", label: "Projects" },
-    { href: "#contact", label: "Contact" }
-  ];
-
   return (
     <div>
       {/* Navbar */}
@@ -80,10 +73,12 @@ export default function Page() {
               className="relative w-40 h-40 md:w-56 md:h-56"
             >
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-indigo-600 to-violet-500 blur-2xl opacity-30" />
-              <img
+              <Image
                 src={profile.about.avatar}
                 alt="Sergio Vargas avatar"
-                className="relative w-full h-full object-cover rounded-2xl border border-slate-200 dark:border-slate-700 shadow-xl"
+                width={224}  // 56 * 4px; ajusta a tu tamaño
+                height={224}
+                className="relative w-40 h-40 md:w-56 md:h-56 object-cover rounded-2xl border border-slate-200 dark:border-slate-700 shadow-xl"
               />
             </motion.div>
           </div>
@@ -178,11 +173,11 @@ export default function Page() {
         <div className="max-w-4xl mx-auto">
           <Card>
             <CardContent className="p-4">
-              <img
-                src={`https://leetcard.jacoblin.cool/${profile.links.github
-                  .split("/")
-                  .pop()}?theme=dark&font=Roboto&ext=heatmap`}
+              <Image
+                src={`https://leetcard.jacoblin.cool/${profile.links.github.split("/").pop()}?theme=dark&font=Roboto&ext=heatmap`}
                 alt="LeetCode Stats"
+                width={1200}
+                height={420}
                 className="w-full rounded-md border border-slate-200 dark:border-slate-700"
               />
             </CardContent>
