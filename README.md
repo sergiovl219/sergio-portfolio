@@ -3,7 +3,7 @@
 🚀 Personal portfolio website showcasing my **skills, experience, and projects** as a Backend Engineer.  
 Built with **Next.js, TypeScript, TailwindCSS, Framer Motion**, and deployed on **Vercel**.
 
-🔗 **Live Demo** → [https://your-vercel-url.vercel.app](https://your-vercel-url.vercel.app)  
+🔗 **Live Demo** → [https://sergio-portfolio-pi.vercel.app](https://sergio-portfolio-pi.vercel.app)  
 📄 **Download CV** → [CV Sergio Vargas](./public/Updated_CV_Sergio_Vargas.pdf)
 
 ---
