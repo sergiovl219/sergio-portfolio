@@ -3,7 +3,7 @@
     "title": "Software Engineer",
     "summary": "Bilingual Software Engineer specialized in Python (Django, FastAPI, Flask) and AWS serverless. I build scalable systems, modern front-ends, and LLM apps with LangChain and LangSmith.",
     "avatar": "https://avatars.githubusercontent.com/sergiovl219",
-    "cvHref": "/Sergio_Vargas_CV.pdf",
+    "cvHref": "/Updated_CV_Sergio_Vargas.pdf",
     "ctas": [
       { "label": "View Projects", "href": "#projects" },
       { "label": "Contact", "href": "#contact", "outline": true }
