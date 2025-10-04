@@ -1,4 +1,4 @@
-# Sergio Vargas – Backend Engineer
+# Sergio Vargas – Software Engineer
 
 🚀 Personal portfolio website showcasing my **skills, experience, and projects** as a Backend Engineer.  
 Built with **Next.js, TypeScript, TailwindCSS, Framer Motion**, and deployed on **Vercel**.
@@ -71,7 +71,7 @@ This project is optimized for deployment on Vercel:
 ## 🧑‍💻 Author
 
 **Sergio Vargas**  
-_Bilingual Backend Engineer_
+_Bilingual Software Engineer_
 
 **Skills:** Python, FastAPI, Django, AWS, LangChain
 
