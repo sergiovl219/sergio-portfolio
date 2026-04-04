@@ -33,8 +33,8 @@ export default function Page() {
         </div>
       </nav>
 
-      {/* Hero / About */}
-      <Section id="about">
+      {/* Hero */}
+      <Section id="home">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
             <motion.h1
@@ -81,6 +81,16 @@ export default function Page() {
               />
             </motion.div>
           </div>
+        </div>
+      </Section>
+
+      {/* About */}
+      <Section id="about">
+        <SectionTitle kicker="Introduction">👤 About Me</SectionTitle>
+        <div className="max-w-4xl mx-auto space-y-4 text-lg text-secondary dark:text-slate-300">
+          {profile.about.bio.map((paragraph, idx) => (
+            <p key={idx}>{paragraph}</p>
+          ))}
         </div>
       </Section>
 
