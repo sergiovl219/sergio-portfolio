@@ -29,12 +29,12 @@
   "experience": [
     {
       "company": "Unosquare / Harvard Business School",
-      "role": "Fullstack Developer",
+      "role": "Senior Backend Engineer",
       "period": "Nov 2022 – Present",
       "bullets": [
-        "Developed backend services with FastAPI and frontends with React/Vue.",
-        "Designed AWS serverless solutions (Lambda, RDS, CloudWatch, Secrets Manager, IAM).",
-        "Gathered and analyzed requirements in the absence of a BA role."
+        "Built scalable FastAPI services and AWS serverless components for production systems.",
+        "Increased automated test coverage by 35% through integration and unit testing.",
+        "Implemented LangGraph and LangSmith workflows for AI/LLM orchestration, tracing, and evaluations."
       ]
     },
     {
@@ -42,8 +42,9 @@
       "role": "Backend Developer",
       "period": "Jul 2021 – Nov 2022",
       "bullets": [
-        "Built microservices in Django (hexagonal architecture).",
-        "Optimized PostgreSQL performance (queries, indexes, triggers)."
+        "Developed Django microservices using hexagonal architecture.",
+        "Improved PostgreSQL performance by ~25% through query and indexing optimization.",
+        "Collaborated with QA, product, and frontend teams in Scrum delivery."
       ]
     },
     {
@@ -51,8 +52,9 @@
       "role": "Backend Developer",
       "period": "Oct 2019 – Jul 2021",
       "bullets": [
-        "Implemented payment microservices (50k+ monthly transactions).",
-        "Developed PHP plugins for WooCommerce, Prestashop, Magento."
+        "Built Django/DRF payment services handling 50k+ transactions per month.",
+        "Developed payment gateway plugins for WooCommerce, PrestaShop, and Magento.",
+        "Improved code quality through PEP8 standards and automated testing."
       ]
     },
     {
@@ -60,8 +62,9 @@
       "role": "Python Developer & Linux Administrator",
       "period": "Jul 2018 – Oct 2019",
       "bullets": [
-        "Delivered client solutions with Flask RESTful, MongoDB, MySQL, PHP.",
-        "Automated Linux server tasks to reduce manual workload."
+        "Delivered backend solutions with Flask RESTful, MongoDB/MySQL, and PHP.",
+        "Administered Linux servers and automated operational tasks.",
+        "Reduced manual workload by ~40% through scripting and automation."
       ]
     }
   ],
