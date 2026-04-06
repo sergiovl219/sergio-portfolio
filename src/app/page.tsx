@@ -156,8 +156,8 @@ export default function Page() {
           <SectionTitle kicker="Selected Work">📂 Projects</SectionTitle>
           <div className="grid md:grid-cols-3 gap-6">
             {profile.projects.map((p) => (
-              <a key={p.title} href={p.href} className="group">
-                <Card className="h-full transition-all group-hover:shadow-md group-hover:-translate-y-0.5">
+              <a key={p.title} href={p.href} className="group outline-none rounded-xl">
+                <Card className="h-full transition-all duration-300 group-hover:shadow-2xl group-hover:shadow-indigo-500/40 dark:group-hover:shadow-violet-500/40 group-hover:-translate-y-2 group-hover:border-indigo-500 dark:group-hover:border-violet-500 group-hover:bg-indigo-50/50 dark:group-hover:bg-violet-900/10">
                   <CardContent className="p-5 flex flex-col h-full">
                     <h4 className="font-bold text-lg mb-1 dark:text-white">
                       {p.title}
