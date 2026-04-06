@@ -82,9 +82,9 @@
       "stack": ["Python", "TypeScript", "PyTest"]
     },
     {
-      "title": "LangChain + LangSmith Demo",
-      "desc": "Chatbot with evaluation/monitoring via LangSmith.",
-      "href": "#",
+      "title": "LLM Evaluation Playground",
+      "desc": "Full-stack platform for benchmarking LLM models and extraction workflows with tracing, evaluation, and structured output analysis.",
+      "href": "https://github.com/sergiovl219/llm-evaluation-playground",
       "stack": ["FastAPI", "LangChain", "LangSmith", "AWS"]
     }
   ]
