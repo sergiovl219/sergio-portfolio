@@ -233,7 +233,7 @@ export default function Page() {
 
       {/* Footer */}
       <footer className="border-t border-slate-200 dark:border-slate-800 py-8">
-        <div className="max-w-6xl mx-auto px-6 md:px-10 text-sm text-slate-500 dark:text-slate-400 flex flex-col md:flex-row items-center justify-between gap-3">
+        <div className="max-w-6xl mx-auto px-6 md:px-10 text-sm text-secondary flex flex-col md:flex-row items-center justify-between gap-3">
           <p>© {new Date().getFullYear()} Sergio Vargas. All rights reserved.</p>
           <p>
             Built with{" "}
