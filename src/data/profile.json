@@ -3,7 +3,7 @@
     "title": "Senior Backend Engineer",
     "summary": "I build scalable backend systems with Python, AWS, and PostgreSQL, and I also work on AI/LLM integrations with LangSmith and modern orchestration tooling.",
     "avatar": "https://avatars.githubusercontent.com/sergiovl219",
-    "cvHref": "/Updated_CV_Sergio_Vargas.pdf",
+    "cvHref": "/Sergio_Vargas_CV_Backend.pdf",
     "ctas": [
       { "label": "View Projects", "href": "#projects" },
       { "label": "Contact", "href": "#contact", "outline": true }
