@@ -19,8 +19,7 @@ export function SectionTitle({
   return (
     <div className="text-center mb-12">
       {kicker && (
-        <p className="text-sm tracking-widest uppercase mb-2"
-           style={{ color: "var(--text-secondary)" }}>
+        <p className="text-sm tracking-widest uppercase mb-2 text-slate-600 dark:text-slate-400">
           {kicker}
         </p>
       )}

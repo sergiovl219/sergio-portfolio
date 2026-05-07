@@ -45,7 +45,7 @@ export default function Page() {
             >
               {profile.about.title}
             </motion.h1>
-            <p className="mt-4 text-lg text-secondary">
+            <p className="mt-4 text-lg text-slate-700 dark:text-slate-300">
               {profile.about.summary}
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
@@ -87,7 +87,7 @@ export default function Page() {
       {/* About */}
       <Section id="about">
         <SectionTitle kicker="Introduction">👤 About Me</SectionTitle>
-        <div className="max-w-4xl mx-auto space-y-4 text-lg text-secondary dark:text-slate-300">
+        <div className="max-w-4xl mx-auto space-y-4 text-lg text-slate-700 dark:text-slate-300">
           {profile.about.bio.map((paragraph, idx) => (
             <p key={idx}>{paragraph}</p>
           ))}
@@ -134,12 +134,12 @@ export default function Page() {
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <h4 className="font-bold text-lg dark:text-white">{job.company}</h4>
-                    <p className="text-sm text-secondary">
+                    <p className="text-sm text-slate-600 dark:text-slate-400">
                       {job.role} • {job.period}
                     </p>
                   </div>
                 </div>
-                <ul className="list-disc list-inside text-sm text-secondary mt-3 space-y-1">
+                <ul className="list-disc list-inside text-sm text-slate-600 dark:text-slate-400 mt-3 space-y-1">
                   {job.bullets.map((b) => (
                     <li key={b}>{b}</li>
                   ))}
@@ -162,7 +162,7 @@ export default function Page() {
                     <h4 className="font-bold text-lg mb-1 dark:text-white">
                       {p.title}
                     </h4>
-                    <p className="text-secondary flex-1">{p.desc}</p>
+                    <p className="text-slate-700 dark:text-slate-300 flex-1">{p.desc}</p>
                     <div className="mt-4 flex flex-wrap gap-2">
                       {p.stack.map((t: string) => (
                         <TechBadge key={t} label={t} />
@@ -233,7 +233,7 @@ export default function Page() {
 
       {/* Footer */}
       <footer className="border-t border-slate-200 dark:border-slate-800 py-8">
-        <div className="max-w-6xl mx-auto px-6 md:px-10 text-sm text-secondary flex flex-col md:flex-row items-center justify-between gap-3">
+        <div className="max-w-6xl mx-auto px-6 md:px-10 text-sm text-slate-600 dark:text-slate-400 flex flex-col md:flex-row items-center justify-between gap-3">
           <p>© {new Date().getFullYear()} Sergio Vargas. All rights reserved.</p>
           <p>
             Built with{" "}
